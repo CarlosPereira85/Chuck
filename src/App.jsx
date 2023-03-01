@@ -1,10 +1,20 @@
 import React from 'react';
 import './App.css';
+import Button from './components/Button';
+import DropDown from './components/DropDown';
+import Header from './components/Header';
+import Joke from './components/Joke';
+
 
 const App = () => {
   return (
     <main>
-     <h1>Welcome to React</h1>
+    <Header />
+    <Joke/>
+    <section>
+    <DropDown />
+    <Button />
+    </section>
     </main>
   );
 }
